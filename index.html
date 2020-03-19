@@ -2,11 +2,22 @@
 
 <style>
   #motto {
-    position: fixed;
+    text-align: center;
     margin: auto;
     color: rgb(227, 11, 93);
     font-family: monospace;
+    
+    animation-name: title-color-change;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
   }
+  
+  @keyframes title-color-change{
+    100% {
+      color: rgb(255, 209, 220);
+    }
+  }
+  
 </style>
 
 <header>
